@@ -1,0 +1,3 @@
+ALTER TABLE shoes ADD COLUMN category TEXT DEFAULT 'Обувь';
+ALTER TABLE shoes ADD COLUMN composition TEXT DEFAULT 'Натуральная кожа';
+ALTER TABLE shoes ADD COLUMN image_path TEXT;
